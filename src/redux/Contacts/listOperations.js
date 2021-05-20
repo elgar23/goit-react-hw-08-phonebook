@@ -14,7 +14,7 @@ import {
   upError,
 } from './listAction';
 
-// axios.defaults.baseURL = 'http://localhost:4000';
+ //axios.defaults.baseURL = 'http://localhost:3000';
 
 const addList = (text, number) => dispatch => {
   const item = { name: text, number: number };
